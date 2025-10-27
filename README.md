@@ -44,6 +44,8 @@ Stage-2:
 	Steps: 
 	    1. From the output logins, To remove the randomness, we have 2 techniques (Temperature Scaling & Top-k Sampling). Combine together 
 	    2. Then, you load the pre-trained weights from GPT-2 (355M) and add to your model. 
+
+
 Stage-3:
 	FineTuning: This is the last step. You can fine-tune your model in 2 ways. Instruction Fine-Tuning and 2. Classification Fine-tuning.  
 		Instruction  Fine-Tuning: You can add instructions to your model. 
